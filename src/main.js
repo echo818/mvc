@@ -7,10 +7,10 @@ import 'element-ui/lib/theme-chalk/index.css'
 import '@/style/index.less'
 
 import router from './router'
-import Layout from './components/Layout'
-import Page from './components/Page'
-import Content from './components/Content'
-import Login from './components/Login'
+import Layout from './views/Layout'
+import Page from './views/Page'
+import Content from './views/Content'
+import Login from './views/Login'
 
 Vue.use(ElementUI)
 Vue.component('layout', Layout)

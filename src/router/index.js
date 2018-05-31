@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import App from '@/views/app'
-import Home from '@/views/home'
-import Details from '@/views/details'
-import Login from '@/views/login'
-import Error from '@/views/error'
+import App from '@/controllers/app'
+import Home from '@/controllers/home'
+import Details from '@/controllers/details'
+import Login from '@/controllers/login'
+import Error from '@/controllers/error'
 
 Vue.use(Router)
 
